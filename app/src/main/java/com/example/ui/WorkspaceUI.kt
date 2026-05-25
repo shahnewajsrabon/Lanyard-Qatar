@@ -73,8 +73,8 @@ fun WorkspaceMainView(
             .background(MaterialTheme.colorScheme.background)
     ) {
         // --- Core Screen Selection Grid ---
-        if (currentTab == Screen.LockScreen) {
-            LockScreenView(viewModel = viewModel)
+        if (false) {
+            // Security / login feature disabled for now
         } else {
             // Main Responsive Scaffold (Dashboard, Tasks, Chat, Calendar, Portal, Settings)
             Scaffold(
@@ -190,7 +190,7 @@ fun WorkspaceMainView(
                         Screen.Calendar -> CalendarScreenView(viewModel = viewModel)
                         Screen.Portal -> PortalScreenView(viewModel = viewModel)
                         Screen.Settings -> SettingsScreenView(viewModel = viewModel)
-                        else -> {}
+                        else -> DashboardScreenView(viewModel = viewModel)
                     }
                 }
             }
