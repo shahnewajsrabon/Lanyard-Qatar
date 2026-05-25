@@ -1,0 +1,6 @@
+{
+  "name": "LanyardQatar",
+  "description": "High-efficiency automated task tracker, biometric workspace gate, real-time analytics dashboard, team communications channel, and local SQLite offline synchronisation node.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
